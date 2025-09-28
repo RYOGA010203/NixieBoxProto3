@@ -61,8 +61,10 @@ void user_main(void);
 #define MCO_GPIO_Port GPIOF
 #define SW_UTC_Pin GPIO_PIN_0
 #define SW_UTC_GPIO_Port GPIOA
+#define SW_UTC_EXTI_IRQn EXTI0_IRQn
 #define SW_LLA_Pin GPIO_PIN_1
 #define SW_LLA_GPIO_Port GPIOA
+#define SW_LLA_EXTI_IRQn EXTI1_IRQn
 #define VCP_TX_Pin GPIO_PIN_2
 #define VCP_TX_GPIO_Port GPIOA
 #define SR0_Pin GPIO_PIN_3
@@ -87,8 +89,10 @@ void user_main(void);
 #define SR7_GPIO_Port GPIOA
 #define SW_DATE_Pin GPIO_PIN_11
 #define SW_DATE_GPIO_Port GPIOA
+#define SW_DATE_EXTI_IRQn EXTI15_10_IRQn
 #define SW_SPD_Pin GPIO_PIN_12
 #define SW_SPD_GPIO_Port GPIOA
+#define SW_SPD_EXTI_IRQn EXTI15_10_IRQn
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
